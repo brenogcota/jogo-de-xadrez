@@ -7,11 +7,8 @@ namespace jogo_xadrez
     {
         static void Main(string[] args)
         {
-            Posicao P;
+            Tabuleiro tab = new Tabuleiro(3,3);
 
-            P = new Posicao(3, 4);
-
-            Console.WriteLine("Posicao " + P);
 
             Console.ReadLine();
         }
