@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Breno\\desktop\\jogo-xadrez\\jogo-xadrez.csproj": {}
+    "C:\\Users\\Breno\\Desktop\\jogo-xadrez\\jogo-xadrez.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Breno\\desktop\\jogo-xadrez\\jogo-xadrez.csproj": {
+    "C:\\Users\\Breno\\Desktop\\jogo-xadrez\\jogo-xadrez.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Breno\\desktop\\jogo-xadrez\\jogo-xadrez.csproj",
+        "projectUniqueName": "C:\\Users\\Breno\\Desktop\\jogo-xadrez\\jogo-xadrez.csproj",
         "projectName": "jogo-xadrez",
-        "projectPath": "C:\\Users\\Breno\\desktop\\jogo-xadrez\\jogo-xadrez.csproj",
+        "projectPath": "C:\\Users\\Breno\\Desktop\\jogo-xadrez\\jogo-xadrez.csproj",
         "packagesPath": "C:\\Users\\Breno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Breno\\desktop\\jogo-xadrez\\obj\\",
+        "outputPath": "C:\\Users\\Breno\\Desktop\\jogo-xadrez\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Breno\\AppData\\Roaming\\NuGet\\NuGet.Config"
