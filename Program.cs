@@ -9,6 +9,7 @@ namespace jogo_xadrez
         {
             Tabuleiro tab = new Tabuleiro(3,3);
 
+            Tela.imprimirTabuleiro(tab);
 
             Console.ReadLine();
         }
