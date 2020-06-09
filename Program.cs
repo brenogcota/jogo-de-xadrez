@@ -8,15 +8,25 @@ namespace jogo_xadrez
     {
         static void Main(string[] args)
         {
-            Tabuleiro tab = new Tabuleiro(8,8);
+            try {
+                PartidaXadrez partida = new PartidaXadrez();
 
-            tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(0,1));
+                while(!partida.terminada) {
+                    Console.Clear();
+                    Tela.imprimirTabuleiro(partida.tab);
 
-            tab.colocarPeca(new Torre(tab, Cor.Branca), new Posicao(0,5));
-            tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(3,1));
+                    Console.Write("Origem: ");
+                    Posicao origem = Tela.lerPosicaoXadrez().toPosicao();
 
-            Tela.imprimirTabuleiro(tab);
+                    Console.Write("Destino: ");
+                    Posicao destino = Tela.lerPosicaoXadrez().toPosicao();
 
+                    partida.executaMovimento(origem, destino);
+                }
+               
+            } catch(TabuleiroException e) {
+                Console.WriteLine(e);
+            }
             Console.ReadLine();
         }
     }
