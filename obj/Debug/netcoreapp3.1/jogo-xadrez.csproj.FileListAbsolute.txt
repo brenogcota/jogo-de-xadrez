@@ -1,0 +1,13 @@
+C:\Users\Breno\desktop\jogo-xadrez\bin\Debug\netcoreapp3.1\jogo-xadrez.exe
+C:\Users\Breno\desktop\jogo-xadrez\bin\Debug\netcoreapp3.1\jogo-xadrez.deps.json
+C:\Users\Breno\desktop\jogo-xadrez\bin\Debug\netcoreapp3.1\jogo-xadrez.runtimeconfig.json
+C:\Users\Breno\desktop\jogo-xadrez\bin\Debug\netcoreapp3.1\jogo-xadrez.runtimeconfig.dev.json
+C:\Users\Breno\desktop\jogo-xadrez\bin\Debug\netcoreapp3.1\jogo-xadrez.dll
+C:\Users\Breno\desktop\jogo-xadrez\bin\Debug\netcoreapp3.1\jogo-xadrez.pdb
+C:\Users\Breno\desktop\jogo-xadrez\obj\Debug\netcoreapp3.1\jogo-xadrez.csprojAssemblyReference.cache
+C:\Users\Breno\desktop\jogo-xadrez\obj\Debug\netcoreapp3.1\jogo-xadrez.csproj.CoreCompileInputs.cache
+C:\Users\Breno\desktop\jogo-xadrez\obj\Debug\netcoreapp3.1\jogo-xadrez.AssemblyInfoInputs.cache
+C:\Users\Breno\desktop\jogo-xadrez\obj\Debug\netcoreapp3.1\jogo-xadrez.AssemblyInfo.cs
+C:\Users\Breno\desktop\jogo-xadrez\obj\Debug\netcoreapp3.1\jogo-xadrez.dll
+C:\Users\Breno\desktop\jogo-xadrez\obj\Debug\netcoreapp3.1\jogo-xadrez.pdb
+C:\Users\Breno\desktop\jogo-xadrez\obj\Debug\netcoreapp3.1\jogo-xadrez.genruntimeconfig.cache
