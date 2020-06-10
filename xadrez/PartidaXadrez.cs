@@ -34,6 +34,24 @@ namespace xadrez
 
         }
 
+        public void validarPosicaoOrigem(Posicao pos) {
+            if(tab.peca(pos) == null) {
+                throw new TabuleiroException("Posicao vazia");
+            }
+            if(jogadorAtual != tab.peca(pos).cor){
+                throw new TabuleiroException("Vez do outro jogador");
+            }
+            if(!tab.peca(pos).existeMovimentosPossiveis()){
+                throw new TabuleiroException("Movimentacao impossivel");
+            }
+        }
+
+        public void validarPosicaoDestino(Posicao origem, Posicao destino) {
+            if(!tab.peca(origem).podeMoverPara(destino)) {
+                throw TabuleiroException("Posicao de destino invalida");
+            }
+        }
+
         private void mudaJogador() {
             if(jogadorAtual == Cor.Branca) {
                 jogadorAtual = Cor.Preta;
